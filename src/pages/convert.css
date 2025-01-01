@@ -1,0 +1,139 @@
+.Convert {
+    background: rgba(0, 0, 0, 0.02);
+    height: 100vh;
+    width: 100vw;
+    padding: 2vw;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto; /* Agar konten bisa di-scroll jika melebihi ukuran kontainer */
+    align-items: center;
+}
+
+.tulisanconvert {
+    width: 100%;
+    background-color: transparent;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.inputtombol {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 1vh;
+    gap: 1vh;
+    display: flex;
+    flex-direction: row;
+     /* Agar elemen bisa meliputi baris baru jika terlalu besar */
+    justify-content: space-between;
+}
+
+
+.inputtombol1 {
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-between;
+    padding: 1vh;
+    width: 100%; /* Memastikan elemen ini memenuhi lebar kontainer */
+    
+}
+
+.inputtombol2 {
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-between;
+    padding: 1vh;
+    width: 100%; /* Memastikan elemen ini memenuhi lebar kontainer */
+}
+
+.input1 input {
+    width: 60vw; /* Mengatur lebar input menjadi 80% dari lebar viewport */
+    box-sizing: border-box;
+    height: 100%;
+    height: 5.25vh;
+    font-size: small;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5vw;
+    font-size: medium;
+}
+
+
+.input2 {
+    width: 60vw;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 5.25vh;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.5vw;
+    font-size: medium;
+}
+
+.tombolconvert {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+}
+
+.klikconvert {
+    width: 20vw;
+    border-radius: 10px;
+    color: white;
+    background-color: #006450;
+    border: none;
+    padding: 0.5vw;
+}
+
+.klikconvert:hover {
+    color: #006450;
+    background-color: white;
+}
+
+.currency-dropdown {
+    width: 100%; /* Menyesuaikan lebar dropdown */
+    padding: 1vh;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    background-color: #006450;
+}
+
+.gambaran {
+    display: inline-block; 
+    height: 45vh; 
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+  
+.gambaran img {
+    display: block; 
+    max-width: 100%; 
+    height: 35vh; 
+    box-sizing: border-box;
+}

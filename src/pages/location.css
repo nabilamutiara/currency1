@@ -1,0 +1,50 @@
+.location {
+    background: linear-gradient(to bottom, #B3F959, #59EED0);
+    height: 100vh;
+    width: 100vw;
+    padding: 2vw;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto; /* Agar konten bisa di-scroll jika melebihi ukuran kontainer */
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.tulisanawal {
+    width: 100%;
+    background-color: transparent;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+.daftarkota {
+    max-height: 80vh; /* Batas tinggi container */
+    overflow-y: auto;  /* Mengaktifkan scrolling vertikal jika konten melebihi tinggi */
+    border: none; /* Opsional: tambahkan border */
+    padding: 10px; /* Opsional: tambahkan padding */
+    gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.surabaya {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5vw;
+    width: 80vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tambahkan properti ini */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+    gap: 3vw;
+    box-sizing: border-box;
+}
